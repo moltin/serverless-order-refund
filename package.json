@@ -1,0 +1,22 @@
+{
+  "name": "order-refunds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "@moltin/request": "^1.2.0",
+    "braintree": "^2.12.0",
+    "dotenv": "^6.0.0",
+    "http": "0.0.0",
+    "qs": "^6.5.2",
+    "stripe": "^6.5.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.25.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthew Foyle <matt@moltin.com>",
+  "license": "ISC"
+}
